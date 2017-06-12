@@ -24,7 +24,7 @@ permalink: /:title.html
 twitter_username: jekyllrb
 github_username:  jekyll
 disqus:
-  shortname: developer-note
+  shortname: https-blog-wilianto-com
 google_analytics: UA-11774853-5
 
 # Build settings
