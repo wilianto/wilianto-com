@@ -19,7 +19,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   I’m a sofware engineer from Indonesia. Currently I’m working as software engineer at KMKLabs. Develop software in an Agile way, using Extreme Programming methodologies (pair programming, test driven development, continuous integration, and continuous deployment)
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.wilianto.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:title.html
 twitter_username: jekyllrb
 github_username:  jekyll
