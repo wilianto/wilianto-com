@@ -1,9 +1,10 @@
 ---
+title: Epson TM-U220 Error Not Available
+date: 2015-06-27 09:52:00 Z
 layout: post
-title: "Epson TM-U220 Error Not Available"
-date: 2015-06-27 16:52:00 +0700
-meta_keywords: "epson tm-u220, printer not available"
-meta_description: "Epson TM-U220 sometimes gets error printer not available in Windows XP"
+meta_keywords: epson tm-u220, printer not available
+meta_description: Epson TM-U220 sometimes gets error printer not available in Windows
+  XP
 comments: true
 ---
 

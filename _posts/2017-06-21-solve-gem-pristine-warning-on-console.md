@@ -1,10 +1,11 @@
 ---
+title: Solve gem pristine Warning on Console (Mac)
+date: 2017-06-21 09:52:00 Z
+categories:
+- ruby
 layout: post
-title: "Solve gem pristine Warning on Console (Mac)"
-date: 2017-06-21 16:52:00 +0700
-categories: ruby
 meta_keywords: ruby gem
-meta_description: "How I solve warning from gem pristine"
+meta_description: How I solve warning from gem pristine
 comments: true
 ---
 

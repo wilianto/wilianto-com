@@ -1,10 +1,11 @@
 ---
+title: Setup SSL Certificate for Tomcat
+date: 2017-02-19 09:52:00 Z
+categories:
+- server
 layout: post
-title: "Setup SSL Certificate for Tomcat"
-date: 2017-02-19 16:52:00 +0700
-categories: server
 meta_keywords: ssl certificate, ssl tomcat
-meta_description: "Setup SSL to run HTTPS on Apache Tomcat."
+meta_description: Setup SSL to run HTTPS on Apache Tomcat.
 comments: true
 ---
 

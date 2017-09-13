@@ -1,10 +1,12 @@
 ---
+title: Variadic Function and Variadic Argument Golang
+date: 2017-01-30 09:52:00 Z
+categories:
+- golang
 layout: post
-title: "Variadic Function and Variadic Argument Golang"
-date: 2017-01-30 16:52:00 +0700
-categories: golang
 meta_keywords: golang variadic, variadic function in golang
-meta_description: "Explain with example variadic function and variadic argument in Golang"
+meta_description: Explain with example variadic function and variadic argument in
+  Golang
 comments: true
 ---
 

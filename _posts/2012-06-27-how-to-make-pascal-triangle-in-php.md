@@ -1,10 +1,11 @@
 ---
+title: How to Make Pascal Triangle in PHP
+date: 2012-06-27 09:52:00 Z
+categories:
+- php
 layout: post
-title: "How to Make Pascal Triangle in PHP"
-date: 2012-06-27 16:52:00 +0700
-categories: php
-meta_keywords: "pascal triangle, php"
-meta_description: "Step by step create a pascal triangle in PHP"
+meta_keywords: pascal triangle, php
+meta_description: Step by step create a pascal triangle in PHP
 comments: true
 ---
 

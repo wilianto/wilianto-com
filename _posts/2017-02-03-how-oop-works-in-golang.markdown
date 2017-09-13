@@ -1,10 +1,11 @@
 ---
+title: How OOP works in Golang
+date: 2017-02-03 23:58:00 Z
+categories:
+- golang
 layout: post
-title: "How OOP works in Golang"
-date: 2017-02-04 06:58:00 +0700
-categories: golang
 meta_keywords: golang oop
-meta_description: "Golang for developer who familiar with Object Oriented Programming"
+meta_description: Golang for developer who familiar with Object Oriented Programming
 comments: true
 ---
 

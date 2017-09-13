@@ -1,9 +1,9 @@
 ---
+title: Read and Write HDFS Using Java
+date: 2016-04-14 09:52:00 Z
 layout: post
-title: "Read and Write HDFS Using Java"
-date: 2016-04-14 16:52:00 +0700
-meta_keywords: "read hdfs, write hdfs, hadoop hdfs"
-meta_description: "Step by step create read and write to HDFS using Java"
+meta_keywords: read hdfs, write hdfs, hadoop hdfs
+meta_description: Step by step create read and write to HDFS using Java
 comments: true
 ---
 

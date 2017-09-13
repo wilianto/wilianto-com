@@ -1,10 +1,12 @@
 ---
+title: Factory Girl for Rails Has Many Lines
+date: 2017-07-22 09:52:00 Z
+categories:
+- ruby
 layout: post
-title: "Factory Girl for Rails Has Many Lines"
-date: 2017-07-22 16:52:00 +0700
-categories: ruby
-meta_keywords: "factory girl has many, factory has many lines, factory girl ignore attribute"
-meta_description: "How to create rails has many lines factory with factory girl"
+meta_keywords: factory girl has many, factory has many lines, factory girl ignore
+  attribute
+meta_description: How to create rails has many lines factory with factory girl
 comments: true
 ---
 

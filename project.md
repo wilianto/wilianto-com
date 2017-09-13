@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Project
+layout: page
 ---
 
 These are some of my awesome projects.

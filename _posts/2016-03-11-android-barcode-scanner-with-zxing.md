@@ -1,9 +1,9 @@
 ---
+title: Android Barcode Scanner with Zxing
+date: 2016-03-11 09:52:00 Z
 layout: post
-title: "Android Barcode Scanner with Zxing"
-date: 2016-03-11 16:52:00 +0700
-meta_keywords: "android barcode, barcode scanner, android zxing, android scanner"
-meta_description: "Step by step create an android barcode scanner with zxing library"
+meta_keywords: android barcode, barcode scanner, android zxing, android scanner
+meta_description: Step by step create an android barcode scanner with zxing library
 comments: true
 ---
 

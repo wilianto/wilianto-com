@@ -1,9 +1,9 @@
 ---
+title: Installing Nokogiri on OSX 10.11 El Capitan
+date: 2015-12-28 09:52:00 Z
 layout: post
-title: "Installing Nokogiri on OSX 10.11 El Capitan"
-date: 2015-12-28 16:52:00 +0700
-meta_keywords: "nokogiri el capitan, install nokogiri error"
-meta_description: "How to solve error when installing Nokogiri on OSX 10.11 El Capitan"
+meta_keywords: nokogiri el capitan, install nokogiri error
+meta_description: How to solve error when installing Nokogiri on OSX 10.11 El Capitan
 comments: true
 ---
 

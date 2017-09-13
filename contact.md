@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Contact
+layout: page
 ---
 
 You can keep in touch with me at:

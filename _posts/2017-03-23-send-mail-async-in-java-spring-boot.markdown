@@ -1,10 +1,13 @@
 ---
+title: Send Mail Async in Java Spring Boot
+date: 2017-03-23 09:52:00 Z
+categories:
+- java,
+- spring,
+- spring-boot
 layout: post
-title: "Send Mail Async in Java Spring Boot"
-date: 2017-03-23 16:52:00 +0700
-categories: java, spring, spring-boot
 meta_keywords: send mail async, send mail spring boot, async spring boot
-meta_description: "Send Mail Async in Java Spring Boo"
+meta_description: Send Mail Async in Java Spring Boo
 comments: true
 ---
 
