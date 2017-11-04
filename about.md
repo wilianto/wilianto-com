@@ -4,18 +4,23 @@ layout: page
 ---
 
 ## Hi, I'm Wili!
-I'm a sofware engineer from Indonesia. Currently I'm working as software engineer at [KMKLabs](http://kmklabs.com). Develop software in an Agile way, using Extreme Programming methodologies (pair programming, test driven development, continuous integration, and continuous deployment)
+I'm a sofware engineer from Indonesia. Currently working as full stack software engineer at **Go-Jek**. This blog is my place to write down everything I learn and try on my work or free time.
 
-## What I'm doing now
-- Working fulltime at KMKLabs
-- Trading bitcoin everyday
-- Learning Golang and Hadoop
-- Interested in building aquascape together with my brother
+Previously working at [KMKLabs](http://kmklabs.com). Developing software in Agile way, using Extreme Programming methodologies (pair programming, test driven development, continuous integration, and continuous deployment)
 
-## What I'm familiar with
-I used to work with LAMP stack with some popular framework such as **Laravel**, **Yii** and **CodeIgniter**. But currenty I work with **Ruby on Rails** with **Postgres**, **Redis**, **Memcache** and **Varnish**.
+## My Tech Stack
 
-When working at KMKLabs, TDD is very important, so it means now I always write my test first before the implementation.  I usually write my test using **RSpec**, **Jasmine** and **Selenium**.
+**Language** Ruby, Golang, Java, Javascript, PHP
+
+**Database, caching,etc** Postgres, MySQL, Redis, Kafka
+
+**Web framework** Ruby on Rails, Laravel, Yii
+
+**Testing framework** RSpec, Ginkgo & Omega, Jasmine
+
+**Bigdata** Hadoop (MapReduce & HDFS), Hive, Sqoop, Flink
+
+**Editor** Vim, Visual Studio Code, IntelliJ
 
 ## My link!
 - Twitter : [https://twitter.com/wiliantoi](https://twitter.com/wiliantoi)

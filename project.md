@@ -15,8 +15,6 @@ Technologies:
 - jQuery
 - Bootstrap
 
-![IndonesiaBookVendor Home](/assets/images/projects/indonesiabookvendor-home.png "IndonesiaBookVendor Home")
-![IndonesiaBookVendor Detail](/assets/images/projects/indonesiabookvendor-detail.png "IndonesiaBookVendor Detail Page")
-![IndonesiaBookVendor Cart](/assets/images/projects/indonesiabookvendor-cart.png "IndonesiaBookVendor Cart")
-
-
+<img src="/assets/images/projects/indonesiabookvendor-home.png" title="Indonesia Book Vendor Home" width="100%">
+<img src="/assets/images/projects/indonesiabookvendor-detail.png" title="Indonesia Book Vendor Detail" width="100%">
+<img src="/assets/images/projects/indonesiabookvendor-cart.png" title="Indonesia Book Vendor Cart" width="100%">
