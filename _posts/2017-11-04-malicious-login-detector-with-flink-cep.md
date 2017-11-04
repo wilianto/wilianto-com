@@ -9,7 +9,7 @@ meta_description: Detect malicious login pattern with complex event processor (C
 comments: true
 ---
 
-I was playing with Apache Flink several weeks ago. For exercise, I made a simple rule to detect malicious login pattern. The rule is very simple, 3x login activities for the same username and IP. Then for the data source, I use Kafka.
+I was playing with Apache Flink several weeks ago. For exercise, I made a simple rule to detect malicious login pattern. The rule is very simple, 3x login activities for the same username and IP in a minute. Then for the data source, I use Kafka.
 
 **pom.xml**
 {% highlight xml %}
@@ -119,7 +119,7 @@ public class MaliciousLoginDeserializationSchema
 
 Main App code do:
 - Add streaming data source from Kafka topic (FailLogin)
-- Create a malicious login pattern (3x failed with the same username & ip)
+- Create a malicious login pattern (3x failed with the same username & ip in a minute)
 - Match the pattern with comming data
 - Add sink to print out malicious pattern
 
