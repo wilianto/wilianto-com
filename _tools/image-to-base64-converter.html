@@ -1,0 +1,173 @@
+---
+title: Image To Base64 Converter
+layout: page
+permalink: tool/image-to-base64-converter.html
+---
+
+<style>
+  .row {
+    width: 100%;
+  }
+
+  .left-bar {
+    width: 50%;
+    float: left;
+  }
+
+  .right-bar {
+    width: 50%;
+    float: left;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  .file-area {
+    margin: 10px 0px;
+  }
+
+  .drop-file-label {
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    padding-top: 60px;
+    width: 100%;
+    height: 100px;
+    border: 2px dashed #cccccc;
+  }
+
+  .drop-file-label-hover {
+    display: block;
+    text-align: center;
+    padding-top: 60px;
+    width: 100%;
+    height: 100px;
+    border: 2px dashed #000;
+  }
+
+  .drop-file-input {
+    display: none;
+  }
+
+  .output-img {
+    width: 100%;
+  }
+
+  .output-text {
+    display: block;
+    width: 100%;
+    clear: both;
+    margin: 10px 0px;
+  }
+
+  label.result-label {
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    cursor: pointer;
+  }
+
+  small.copy-btn {
+    font-size: 11px;
+    float: right;
+    cursor: pointer;
+  }
+</style>
+
+<div class="file-area">
+  <label for="drop-file-input" class="drop-file-label" id="drop-file-area">Select or Drop Image Here</label>
+  <input type="file" accept="image/*" onchange="openFile(event)" id="drop-file-input" class="drop-file-input">
+</div>
+
+<div class="row">
+  <div class="left-bar">
+    <label for="output-base64" class="result-label">Base64</label><small class="copy-btn" data-id="output-base64">Copy</small>
+    <textarea class="output-text" id="output-base64" rows="8"></textarea>
+    
+    <label for="output-html" class="result-label">Image HTML Tag</label><small class="copy-btn" data-id="output-html">Copy</small>
+    <textarea class="output-text" id="output-html" rows="8"></textarea>
+
+    <label for="output-css" class="result-label">CSS</label><small class="copy-btn" data-id="output-css">Copy</small>
+    <textarea class="output-text" id="output-css" rows="8"></textarea>
+  </div>
+  <div class="right-bar">
+    <img class="output-img" id="output-img">
+  </div>
+</div>
+
+<div class="clear"></div>
+
+<script>
+  var openFile = function(event) {
+    var input = event.target;
+    showBase64(input.files[0]);
+  };
+
+  var resultLabels = document.getElementsByClassName("result-label");
+  for(var i = 0; i < resultLabels.length; i++){
+    resultLabel = resultLabels[i];
+    resultLabel.addEventListener("click", function(){
+      var targetId = this.getAttribute("for");
+      var textarea = document.getElementById(targetId);
+      textarea.select();
+    });
+  };
+
+  var copyBtns = document.getElementsByClassName("copy-btn");
+  for(var i = 0; i < copyBtns.length; i++){
+    copyBtn = copyBtns[i];
+    copyBtn.addEventListener("click", function(){
+      var element = this;
+      var targetId = element.getAttribute("data-id");
+      var textarea = document.getElementById(targetId);
+      textarea.select();
+      try {
+        var successful = document.execCommand('copy');
+        if (successful) {
+          element.innerHTML = "Copied";          
+        }
+      } catch (err) {
+        element.innerHTML = "Failed to copy, please copy it manually!";          
+      }
+      setTimeout(function(){
+        element.innerHTML = "Copy";
+      }, 2000);
+    });
+  };
+
+  var dropArea = document.getElementById("drop-file-area");
+  dropArea.addEventListener("dragover", hoverDropArea, false);
+  dropArea.addEventListener("dragleave", hoverDropArea, false);
+  dropArea.addEventListener("drop", function(e){
+    hoverDropArea(e);
+    var files = e.target.files || e.dataTransfer.files;
+    showBase64(files[0]);
+  }, false);
+
+  function selectTextarea(targetId) {
+
+  }
+
+  function hoverDropArea(e) {
+    e.stopPropagation();
+    e.preventDefault();
+    e.target.className = (e.type == "dragover" ? "drop-file-label-hover" : "drop-file-label");
+  }
+  
+  function showBase64(imageFile) {
+    var reader = new FileReader();
+    reader.onload = function(){
+      var dataURL = reader.result;
+      var outputImg = document.getElementById("output-img");
+      var outputBase64 = document.getElementById("output-base64");
+      var outputHtml = document.getElementById("output-html");
+      var outputCss = document.getElementById("output-css");
+      outputImg.src = dataURL;
+      outputBase64.innerHTML = dataURL;
+      outputHtml.innerHTML = '<img src="' + dataURL + '">';
+      outputCss.innerHTML = 'url(' + dataURL + ')';
+    };
+    reader.readAsDataURL(imageFile);
+  }
+</script>
