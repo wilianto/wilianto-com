@@ -23,7 +23,7 @@ disqus:
   shortname: https-blog-wilianto-com
 google_analytics: UA-11774853-5
 markdown: kramdown
-theme: jekyll-theme-putih-bersih
+theme: jekyll-theme-cayman
 gems:
 - jekyll-feed
 exclude:
